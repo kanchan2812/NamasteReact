@@ -1,0 +1,55 @@
+#heading{
+    color: red;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.nav-items{
+    padding: 0px 20px;
+}
+.nav-items>ul{
+    font-size: 20px;
+    display: flex;
+    list-style-type: none;
+
+}
+.nav-items > ul > li{
+    padding: 10px;
+    margin: 10px;
+    
+}
+.search{
+    padding: 10px;
+}
+.res-card{
+    width: 200px;
+    padding:5px;
+    margin: 5px;
+}
+.res-card:hover{
+    cursor: pointer;
+    border: 1px solid black;
+}
+.res-logo{
+    width:100%;
+
+}
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.footer{
+    background-color: lightgray;
+    text-align: center;
+    padding: 20px;
+}
+.social-link a{
+margin: 10px;
+}
